@@ -1,0 +1,44 @@
+
+.containerTodos{
+  display: inline-flex;
+  width: 100%;
+  
+
+  
+  }
+.invent{
+  width: 60%;
+  margin-left: 20px;
+}
+.invent table{
+  width:90%;
+  
+}
+.invent .btnEliminar{
+ background-color: rgb(247, 45, 45);
+ border-radius: 1em;
+ padding: 5px;
+  
+}
+.invent .btnActualizar{
+  background-color: rgb(40, 108, 233);
+  border-radius: 1em;
+  padding: 5px;
+   
+ }
+.invent table th{
+  background-color: rgb(7, 136, 211);
+  
+}
+.nuevoProd{
+  width: 30%;
+  
+}
+.nuevoProd input{
+  border-radius: 1em;
+  height: 30px;
+  width: 80%;
+  margin-bottom: 20px;
+  display: block;
+  
+}

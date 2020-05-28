@@ -1,0 +1,14 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background:#FEFEFE;
+  font-family: 'Open Sans', sans-serif;
+}
+.scroll
+{
+     overflow-x:scroll;
+     overflow-y:hidden;
+}

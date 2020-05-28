@@ -1,0 +1,73 @@
+
+.menu_bar{
+  display: none;
+}
+header{
+  width: 100%;
+  float: right;
+ text-align: center;
+}
+header nav{
+  background: #023859;
+  z-index: 1000;
+ 
+  margin: 15px auto;
+}
+header nav ul {
+  list-style: none;
+  display: inline-block;
+  
+}
+
+header nav ul li {
+  display: inline-block;
+  position: relative;
+  align-items: center;
+
+}
+
+header nav ul li a {
+  color:#fff;
+  text-decoration: none;
+  padding: 20px;
+  align-items: center;
+  display: flex;
+  cursor: pointer;  
+  
+}
+header nav ul li a:hover{
+  background: #E6344A;
+}
+header nav ul li a img{
+  
+  width: 40px;
+}
+
+
+
+header nav ul li:hover .children{
+  display: block;
+}
+header nav ul li .children{
+  display: none;
+  background: #011826;
+  position: absolute;
+  width: 120%;
+  z-index: 1000;
+}
+header nav ul li .children li{
+  display: block;
+  overflow: hidden;
+  border-bottom: 1px solid rgba(255,255,255,.5);
+}
+header nav ul li .children li a{
+  display: block;
+
+}
+
+header nav ul li .caret{
+  position: relative;
+  top: 3px;
+  margin-left: 10px;
+  margin-right: 0px;
+}
