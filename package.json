@@ -28,7 +28,7 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0",
     "redux": "^4.0.5",
-    "sequelize": "^5.21.6",
+    "sequelize": "^6.29.0",
     "webpack": "^4.42.1",
     "webpack-dev-middleware": "^3.7.2",
     "webpack-hot-middleware": "^2.25.0"
